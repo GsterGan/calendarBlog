@@ -177,6 +177,7 @@ body {
 }
 
 #footer {
+    text-decoration:none;
     height: 40px;
     line-height: 40px;
     position: fixed;

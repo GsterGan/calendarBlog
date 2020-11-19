@@ -8,7 +8,7 @@
     <!-- <link href="css/footer.css" rel="stylesheet" type="text/css" /> -->
     <script  type="text/javascript" class="library" src="js/jquery-1.11.0.min.js"></script>
     <script src="js/old_day_time.js"></script>
-
+    <link rel="shortcut icon" href="res/img/resizeApi.ico" />
 
 </head>
 <body>
@@ -21,7 +21,7 @@
     <div class="good">
         <div class="title">
             <table>
-                <tr><td>宜</td></tr>
+                <tr><td><strong>宜</strong></td></tr>
             </table>
         </div>
         <div class="content">
@@ -33,7 +33,7 @@
     <div class="bad">
         <div class="title">
             <table>
-                <tr><td>不宜</td></tr>
+                <tr><td><strong>不宜</strong></td></tr>
             </table>
         </div>
         <div class="content">
@@ -60,7 +60,7 @@
             <li>本老黄历内容是程序生成的，因为只有这样程序员才会信。</li>
         </ul>
     </div>
-    <div id="footer" href="http://www.beian.miit.gov.cn" target="_blank">湘ICP备20009993号-1</div>
+    <a id="footer" href="http://www.beian.miit.gov.cn" target="_blank">湘ICP备20009993号-1</a>
 </div>
 </body>
 </html>
