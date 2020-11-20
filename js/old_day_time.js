@@ -46,11 +46,11 @@ var activities = [
     {name:"需求评审", good:"",bad:""},
     {name:"上微博", good:"今天发生的事不能错过",bad:"今天的微博充满负能量", weekend: true},
     {name:"上AB站", good:"还需要理由吗？",bad:"满屏兄贵亮瞎你的眼", weekend: true},
-    {name:"玩FlappyBird", good:"今天破纪录的几率很高",bad:"除非你想玩到把手机砸了", weekend: true}
+    {name:"自己做饭", good:"自己动手,丰衣足食",bad:"除非你想把厨房炸了", weekend: true}
 ];
 
 var specials = [
-    {date:20140214, type:'bad', name:'待在男（女）友身边', description:'脱团火葬场，入团保平安。'}
+    {date:20210214, type:'bad', name:'待在男（女）友身边', description:'脱团火葬场，入团保平安。'}
 ];
 
 var tools = ["Eclipse写程序", "MSOffice写文档", "记事本写程序", "Windows8", "Linux", "MacOS", "IE", "Android设备", "iOS设备"];
@@ -64,7 +64,7 @@ function is_someday() {
 }
 
 function getTodayString() {
-    return "今天是" + today.getFullYear() + "年" + (today.getMonth() + 1) + "月" + today.getDate() + "日 星期" + weeks[today.getDay()];
+    return "今天不是" + today.getFullYear() + "年" + (today.getMonth() + 1) + "月" + today.getDate() + "日 星期" + weeks[today.getDay()];
 }
 
 function star(num) {
