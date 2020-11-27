@@ -5,18 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>道尔爵士老黄历</title>
     <link href="css/old_day_time.css" rel="stylesheet" type="text/css" />
-    <!-- <link href="css/footer.css" rel="stylesheet" type="text/css" /> -->
     <script  type="text/javascript" class="library" src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/old_day_time.js"></script>
+    <script src="js/old_day_time.js" ></script>
+    <script src="js/chinese_calendar.js" ></script>
     <link rel="shortcut icon" href="res/img/resizeApi.ico" />
-
 </head>
 <body>
+<h1 id="bigTitle">道尔爵士孤独的心俱乐部乐队网管</h1>
+<h2>下拉菜单</h2>
+<p>鼠标移动到按钮上打开下拉菜单。</p>
+
+<div class="dropdown">
+    <button class="dropbtn">下拉菜单</button>
+    <div class="dropdown-content">
+        <a href="//www.runoob.com">菜鸟教程 1</a>
+        <a href="//www.runoob.com">菜鸟教程 2</a>
+        <a href="//www.runoob.com">菜鸟教程 3</a>
+    </div>
+</div>
 <div class="container">
     <div class="title">
         道尔爵士老黄历<sup>beta</sup>
     </div>
     <div class="date">
+    </div>
+    <div class="pDate">格式测试
     </div>
     <div class="good">
         <div class="title">
