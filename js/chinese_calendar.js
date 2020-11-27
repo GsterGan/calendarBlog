@@ -1,4 +1,3 @@
-<script type="text/javascript">
 
 	var sWeek = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
 	var dNow = new Date();
@@ -99,9 +98,9 @@
 		return yr;
 	}
 	function showDate() {
-		var sValue = getFullYear(dNow) + "年" + (dNow.getMonth() + 1) + "月" + dNow.getDate() + "日" + " " + sWeek[dNow.getDay()] + " ";
+		var sValue = getFullYear(dNow) + "年" + (dNow.getMonth() + 1) + "月" + dNow.getDate() + "日" + " " + sWeek[dNow.getDay()] + "<br>农历";
 		sValue += GetLunarDay(yy, mm, dd);
-		document.getElementById("pDate").innerHTML = sValue;
+		document.getElementById("pDate").write(sValue);
+		$('pDate').html(sValue);
 	};
-	window.onload = showDate;
-</script>
+	//window.onload = showDate;

@@ -1,3 +1,5 @@
+
+
 body * {
     font-family:"Consolas","Microsoft Yahei", Arial, sans-serif;
 }
@@ -8,9 +10,11 @@ body {
     padding: 0;
 }
 
+
 .container {
     width: 320px;
-    margin: 0 auto 50px;
+    margin: 55px auto 50px;
+    overflow: hidden;
 }
 
 .container>.title {
@@ -21,25 +25,7 @@ body {
     padding: 5px 15px;
 }
 
-.adlink {
-    text-align: center;
-    font-size: 11pt;
-}
-
-.adlink a {
-    text-decoration: none;
-    display:block;
-    color: #666;
-    font-weight: bold;
-    margin-bottom: 10px;
-    background: #eee;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10pt;
-    margin-top: 10pt;
-}
-
-.date{
+.date, .pDate {
     font-size:17pt;
     font-weight: bold;
     line-height: 30pt;
@@ -190,4 +176,55 @@ body {
     font-family: Arial;
     font-size: 12px;
     letter-spacing: 1px;
+}
+
+ul.top {
+    z-index: 999;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    background: #333;
+    text-align: left;
+    font-size: 25px;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li.noNight{
+    font-size: 25px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+li a {
+    font-size: 20px;
+    position: inherit;
+    background: white;
+    display: block;
+    color: #bbb;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #555;
+}
+.sign{
+    font-size: 10px;
+    padding: 5px;
 }
