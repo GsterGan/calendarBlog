@@ -97,10 +97,11 @@
 		if (yr < 1000) yr += 1900;
 		return yr;
 	}
+
 	function showDate() {
-		var sValue = getFullYear(dNow) + "年" + (dNow.getMonth() + 1) + "月" + dNow.getDate() + "日" + " " + sWeek[dNow.getDay()] + "<br>农历";
+		var sValue = "农历 ";
 		sValue += GetLunarDay(yy, mm, dd);
-		document.getElementById("pDate").write(sValue);
+		document.getElementById("pDate").innerHTML = sValue;
 		$('pDate').html(sValue);
 	};
-	//window.onload = showDate;
+	window.onload = showDate;

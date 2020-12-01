@@ -31,7 +31,7 @@
     </div>
     <div class="date">
     </div>
-    <div class="pDate">格式测试
+    <div class="pDate" id="pDate">格式测试
     </div>
     <div class="good">
         <div class="title">
