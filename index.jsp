@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+//TODO font;position;
 <h2 class="bigtitle">
     <div class="dropdown">
         <img src="res/img/menu.png" alt="menu" height="30" align="center">
@@ -75,7 +75,7 @@
             <li>本老黄历内容是程序生成的，因为只有这样程序员才会信。</li>
         </ul>
     </div>
-    <a id="footer" href="http://www.beian.miit.gov.cn" target="_blank">湘ICP备20009993号-1</a>
+    <a id="footer" href="https://beian.miit.gov.cn" target="_blank">湘ICP备20009993号-1</a>
 </div>
 </body>
 </html>
